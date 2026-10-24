@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionnaire d'Emprunts Universitaires</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+
+    <div class="container my-5">
+        <h1 class="mb-4 text-center">🎓 Gestion des Emprunts & Manuels Universitaires</h1>
+
+        <!-- Zone d'erreur -->
+        <div id="error-container" class="alert alert-danger d-none" role="alert"></div>
+
+        <!-- Indicateurs calculés dynamiquement -->
+        <div class="row text-center mb-4" id="indicators-container">
+            <!-- Injecté par JavaScript -->
+        </div>
+
+        <!-- Filtres et Recherche -->
+        <div class="row g-3 mb-4 p-3 bg-white shadow-sm rounded">
+            <div class="col-md-4">
+                <input type="text" id="search-input" class="form-control" placeholder="Rechercher par nom d'étudiant...">
+            </div>
+            <div class="col-md-4">
+                <select id="status-select" class="form-select">
+                    <option value="all">Tous les statuts d'emprunt</option>
+                    <option value="Livree">Remis / Accordé (Livree)</option>
+                    <option value="En attente">En cours de traitement</option>
+                    <option value="Annulee">Annulé</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <select id="category-select" class="form-select">
+                    <option value="all">Toutes les matières (Catégories)</option>
+                    <option value="Informatique">Informatique</option>
+                    <option value="Mathématiques">Mathématiques</option>
+                    <option value="Gestion">Gestion</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Zone d'affichage des demandes d'emprunt -->
+        <div class="row" id="orders-container">
+            <!-- Injecté par JavaScript -->
+        </div>
+    </div>
+
+    <!-- Modale de détails de la demande -->
+    <div class="modal fade" id="orderModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-title">Détails du dossier d'emprunt</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+          </div>
+          <div class="modal-body" id="modal-body">
+            <!-- Injecté par JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

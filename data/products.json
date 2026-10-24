@@ -1,0 +1,10 @@
+[
+  { "id": 10, "name": "Algorithmique et Structure de Données", "category": "Informatique", "price": 50, "stock": 10 },
+  { "id": 11, "name": " DevOps", "category": "Informatique", "price": 80, "stock": 15 },
+  { "id": 12, "name": "Analyse Mathématique & Algèbre", "category": "Mathématiques", "price": 40, "stock": 8 },
+  { "id": 13, "name": "Gestion de Projet Agile & Scrum", "category": "Gestion", "price": 60, "stock": 12 },
+  { "id": 14, "name": "Bases de Données Relationnelles et SQL", "category": "Informatique", "price": 45, "stock": 20 },
+  { "id": 15, "name": "Statistiques Appliquées ", "category": "Mathématiques", "price": 55, "stock": 6 },
+  { "id": 16, "name": "Droit du Numérique ", "category": "Gestion", "price": 35, "stock": 14 },
+  { "id": 17, "name": "Architecture des Réseaux Informatiques", "category": "Informatique", "price": 70, "stock": 9 }
+]

@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Samir youssef", "city": "Génie Informatique", "active": true },
+  { "id": 2, "name": "Salma Elmattane", "city": "Data Science", "active": true },
+  { "id": 3, "name": "Youssef El Amrani", "city": "Génie Civil", "active": false },
+  { "id": 4, "name": "Leila Hassan", "city": "Cybersécurité", "active": true },
+  { "id": 5, "name": "Anass Kabbaj", "city": "Management SI", "active": true },
+  { "id": 6, "name": "Houda Berrada", "city": "Intelligence Artificielle", "active": false }
+]
